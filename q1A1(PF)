@@ -1,0 +1,82 @@
+Q.1 make ptcl bill
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+	cout<<"-"<<setw(120)<<setfill('-')<<"-"<<endl;
+	cout<<"|"<<setw(120)<<setfill(' ')<<"|"<<endl;
+	cout<<"|"<<setw(11)<<"ptcl"<<setw(57)<<"Pakistan Telecommunication"<<setw(30)<<"INVOICE"<<setw(22)<<"|"<<endl;
+	int INVOICE=413213349;
+	cout<<"|"<<setw(60)<<"Company Limited"<<setw(31)<<"0"<<INVOICE<<setw(20)<<"|"<<endl;
+    int STN=701851701;
+	int NTN=801599;
+    cout<<"|"<<setw(54)<<"PTCL NTN:0"<<NTN<<setw(60)<<"|"<<endl<<"|"<<setw(20)<<"www.ptcl.com.pk"<<setw(34)<<"PTCL STN:0"<<STN<<setw(57)<<"|"<<endl;
+    int inv=106877373;
+	cout<<"|"<<setw(44)<<setfill(' ')<<" "<<setw(23)<<setfill('_')<<"_"<<setfill(' ')<<" "<<setw(27)<<"INVOICE#:"<<inv<<setw(16)<<"|"<<endl;
+	cout<<"|"<<setfill(' ')<<"\033[31m"<<setw(65)<<"SAY NO TO CORRUPTION"<<"\033[0m"<<setw(42)<<"Issue Date:11-11-2005"<<setw(13)<<"|"<<endl;
+	cout<<"|"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(2)<<"-"<<setw(54)<<"|"<<endl;
+	char a='A';
+	char b='f';
+	char c='r';
+	char d='a';
+	char e='z';
+	char f='A';
+	char g='h';
+	char h='m';
+	char i='a';
+	char j='d';
+	cout<<"|"<<"|"<<setw(12);
+	cout<<a<<b<<c<<d<<e;
+	cout<<setw(2)<<f<<g<<h<<i<<j;
+	cout<<setw(44)<<"|"<<setw(21)<<"ACCOUNT ID/ESN"<<setw(20)<<"1000002065214"<<setw(12)<<"|"<<endl;
+	cout<<"|"<<"|"<<setw(65)<<setfill(' ')<<" "<<"|"<<setw(20)<<"Billing Month"<<setw(16)<<"Sep 2011"<<setw(17)<<"|"<<endl;
+	cout<<"|"<<"|"<<setw(40)<<"Khyber Pakhtunkhwa Judical Old Session"<<setw(26)<<"|"<<setw(20)<<"Amount Due"<<setw(19)<<"Rs.5500.00"<<setw(14)<<"|"<<endl;
+	cout<<"|"<<"|"<<setw(45)<<"Court Building Jail Road khyber Pakhtunkhwa"<<setw(21)<<"|"<<setw(20)<<"Due Date"<<setw(18)<<"11-9-2011"<<setw(15)<<"|"<<endl;
+	cout<<"|"<<"|"<<setw(26)<<"Judical Pakistan Peshwar"<<setw(40)<<"|"<<setw(22)<<"Amount After Due Date"<<setw(17)<<"Rs.6000.00"<<setw(14)<<"|"<<endl;
+    cout<<setw(2)<<setfill('|')<<"|"<<setw(65)<<setfill('-')<<"-"<<"|"<<setw(53)<<setfill(' ')<<"|"<<endl;
+	cout<<"|"<<setw(15)<<"Service Detail"<<setw(60)<<"|"<<setw(13)<<"Bill Summary"<<setw(32)<<"|"<<endl;
+	float internet=5349.00;
+	float value=375.00;
+	float discount=0.00;
+	float adjustment=0.00;
+	cout<<"|"<<setw(10)<<"Telephone"<<setw(23)<<"|"<<setw(4)<<"TV"<<setw(38)<<"|"<<"Internet"<<setw(20)<<"RS."<<internet<<setw(13)<<"|"<<endl;
+	cout<<"|"<<setw(7)<<"Basic"<<setw(26)<<"|"<<setw(42)<<"|"<<"Value Add Services"<<setw(10)<<"RS."<<value<<setw(14)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(42)<<"|"<<"Discount"<<setw(20)<<"RS."<<discount<<setw(16)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<setfill('_')<<"|"<<setfill(' ')<<setw(42)<<"|"<<"Adjustment"<<setw(18)<<"RS."<<adjustment<<setw(16)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(42)<<"|"<<setw(45)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(39)<<"Watch live TV, movies and dramas with"<<setw(3)<<"|"<<setw(45)<<setfill('_')<<"|"<<endl;
+	cout<<setfill(' ')<<"|"<<setw(33)<<"|"<<setw(39)<<"Pause and Rewind options on PTCL Smart TV"<<"|"<<"Total Service Charges"<<setw(7)<<"RS."<<internet+value+discount+adjustment<<setw(13)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<"and Smart TV app Download PTCL Smart TV"<<setw(3)<<"|"<<setw(45)<<setfill('_')<<"|"<<endl;
+	float ttl=0.00;
+	float tsc=5724.00;
+	float arr=4.00;
+	float crd=4.00;
+	float sertx=1116.00;
+	float whtx=0.00;
+	float ltpychrg=0.00;
+	cout<<setfill(' ')<<"|"<<setw(33)<<"|"<<setfill(' ')<<setw(30)<<"App from Google Play Store"<<setw(12)<<"|"<<"Arrears"<<setw(21)<<"RS."<<arr<<setw(16)<<"|"<<endl;
+	cout<<setfill(' ')<<"|"<<setw(33)<<"|"<<setfill(' ')<<setw(36)<<"htttps://goo.gl/Jilklr or App Store"<<setw(6)<<"|"<<"Credits"<<setw(21)<<"RS."<<crd<<setw(16)<<"|"<<endl;
+	cout<<setfill(' ')<<"|"<<setw(33)<<"|"<<setfill(' ')<<setw(30)<<"http://apple.co/1Mw3KlN"<<setw(12)<<"|"<<"Service Tax*"<<setw(16)<<"RS."<<sertx<<setw(13)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(42)<<"|"<<"W.H. Tax"<<setw(20)<<"RS."<<whtx<<setw(16)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(42)<<"|"<<"Late Pay Surcharge"<<setw(10)<<"RS."<<ltpychrg<<setw(16)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(42)<<"|"<<setw(45)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<setfill('_')<<"|"<<setfill(' ')<<setw(42)<<"|"<<setw(45)<<setfill('_')<<"|"<<endl;
+	cout<<setfill(' ')<<"|"<<setw(6)<<"Total"<<setw(12)<<"RS."<<ttl<<setw(14)<<"|"<<setw(42)<<"|"<<"Grand Total"<<setw(12)<<"RS."<<tsc+arr+crd+sertx+whtx+ltpychrg<<setw(18)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<setfill('_')<<"|"<<setfill(' ')<<setw(42)<<"|"<<setw(45)<<setfill('_')<<"|"<<endl;
+	cout<<setfill(' ')<<"|"<<setw(8)<<"Internet"<<setw(25)<<"|"<<setw(10)<<"Evo/Chargi"<<setw(32)<<"|"<<"Billed/Paid History"<<setw(26)<<"|"<<endl;
+	cout<<"|"<<setw(8)<<"50 MBps"<<setw(12)<<"RS.5349"<<setw(13)<<"|"<<"Get your Chargi Evo Cloud Now"<<setw(13)<<"|"<<"May-11"<<setw(27)<<"RS.6840/RS.6840"<<setw(12)<<"|"<<endl;
+	cout<<"|"<<setw(8)<<"Usage: 500GB"<<setw(21)<<"|"<<setw(42)<<"|"<<"Jul-11"<<setw(27)<<"RS.6840/RS.6840"<<setw(12)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<"|"<<setw(42)<<"|"<<"Aug-11"<<setw(27)<<"RS.6840/RS.6840"<<setw(12)<<"|"<<endl;
+	cout<<"|"<<setw(8)<<"Total"<<setw(12)<<"RS.5349"<<setw(13)<<"|"<<setw(42)<<"|"<<"Jun-11"<<setw(27)<<"RS.6840/RS.6840"<<setw(12)<<"|"<<endl;
+	cout<<"|"<<setw(33)<<setfill('_')<<"|"<<setfill('_')<<setw(42)<<"|"<<setw(45)<<setfill('_')<<"|"<<endl;
+	cout<<setfill(' ')<<"|"<<setw(90)<<"Avail Amazing Discounts on Stmart TV and Watch 130+ Live TV Shows and Channels"<<setw(30)<<"|"<<endl;
+	cout<<"|"<<setw(120)<<setfill(' ')<<"|"<<endl;
+	cout<<"-"<<setw(120)<<setfill('-')<<"-"<<endl;
+	
+	
+	
+	
+
+
+return 0;	
+}
